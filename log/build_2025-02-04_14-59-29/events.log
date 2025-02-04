@@ -1,0 +1,78 @@
+[0.000000] (-) TimerEvent: {}
+[0.001617] (test_pkg) JobQueued: {'identifier': 'test_pkg', 'dependencies': OrderedDict()}
+[0.002096] (test_pkg) JobStarted: {'identifier': 'test_pkg'}
+[0.098710] (-) TimerEvent: {}
+[0.199399] (-) TimerEvent: {}
+[0.300068] (-) TimerEvent: {}
+[0.400788] (-) TimerEvent: {}
+[0.501404] (-) TimerEvent: {}
+[0.601970] (-) TimerEvent: {}
+[0.702557] (-) TimerEvent: {}
+[0.803160] (-) TimerEvent: {}
+[0.903871] (-) TimerEvent: {}
+[1.004448] (-) TimerEvent: {}
+[1.105085] (-) TimerEvent: {}
+[1.205918] (-) TimerEvent: {}
+[1.306674] (-) TimerEvent: {}
+[1.407278] (-) TimerEvent: {}
+[1.507892] (-) TimerEvent: {}
+[1.608560] (-) TimerEvent: {}
+[1.709148] (-) TimerEvent: {}
+[1.809784] (-) TimerEvent: {}
+[1.910369] (-) TimerEvent: {}
+[2.010959] (-) TimerEvent: {}
+[2.111601] (-) TimerEvent: {}
+[2.212209] (-) TimerEvent: {}
+[2.312829] (-) TimerEvent: {}
+[2.413551] (-) TimerEvent: {}
+[2.514369] (-) TimerEvent: {}
+[2.615565] (-) TimerEvent: {}
+[2.688930] (test_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/test_pkg', 'build', '--build-base', '/home/rane/Development/hide_and_seek_robot_ws/build/test_pkg/build', 'install', '--record', '/home/rane/Development/hide_and_seek_robot_ws/build/test_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/rane/Development/hide_and_seek_robot_ws/src/test_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rane', 'SSH_CLIENT': '10.0.0.25 51425 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/rane', 'OLDPWD': '/home/rane/Development/hide_and_seek_robot_ws/src/test_pkg', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/rane/Development/hide_and_seek_robot_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'rane', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'TERM_PROGRAM': 'WarpTerminal', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/rane/Development/hide_and_seek_robot_ws/build/test_pkg', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.0.0.25 51425 10.0.0.195 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rane/Development/hide_and_seek_robot_ws/build/test_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rane/Development/hide_and_seek_robot_ws/install/test_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[2.715742] (-) TimerEvent: {}
+[2.816455] (-) TimerEvent: {}
+[2.917085] (-) TimerEvent: {}
+[3.017846] (-) TimerEvent: {}
+[3.118518] (-) TimerEvent: {}
+[3.219144] (-) TimerEvent: {}
+[3.319780] (-) TimerEvent: {}
+[3.420368] (-) TimerEvent: {}
+[3.521031] (-) TimerEvent: {}
+[3.621664] (-) TimerEvent: {}
+[3.722285] (-) TimerEvent: {}
+[3.736372] (test_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[3.739501] (test_pkg) StdoutLine: {'line': b'creating ../../build/test_pkg/test_pkg.egg-info\n'}
+[3.740283] (test_pkg) StdoutLine: {'line': b'writing ../../build/test_pkg/test_pkg.egg-info/PKG-INFO\n'}
+[3.741300] (test_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/test_pkg/test_pkg.egg-info/dependency_links.txt\n'}
+[3.741896] (test_pkg) StdoutLine: {'line': b'writing entry points to ../../build/test_pkg/test_pkg.egg-info/entry_points.txt\n'}
+[3.742383] (test_pkg) StdoutLine: {'line': b'writing requirements to ../../build/test_pkg/test_pkg.egg-info/requires.txt\n'}
+[3.742824] (test_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/test_pkg/test_pkg.egg-info/top_level.txt\n'}
+[3.743713] (test_pkg) StdoutLine: {'line': b"writing manifest file '../../build/test_pkg/test_pkg.egg-info/SOURCES.txt'\n"}
+[3.750230] (test_pkg) StdoutLine: {'line': b"reading manifest file '../../build/test_pkg/test_pkg.egg-info/SOURCES.txt'\n"}
+[3.753487] (test_pkg) StdoutLine: {'line': b"writing manifest file '../../build/test_pkg/test_pkg.egg-info/SOURCES.txt'\n"}
+[3.754096] (test_pkg) StdoutLine: {'line': b'running build\n'}
+[3.754617] (test_pkg) StdoutLine: {'line': b'running build_py\n'}
+[3.755089] (test_pkg) StdoutLine: {'line': b'creating /home/rane/Development/hide_and_seek_robot_ws/build/test_pkg/build\n'}
+[3.755619] (test_pkg) StdoutLine: {'line': b'creating /home/rane/Development/hide_and_seek_robot_ws/build/test_pkg/build/lib\n'}
+[3.756045] (test_pkg) StdoutLine: {'line': b'creating /home/rane/Development/hide_and_seek_robot_ws/build/test_pkg/build/lib/test_pkg\n'}
+[3.756362] (test_pkg) StdoutLine: {'line': b'copying test_pkg/__init__.py -> /home/rane/Development/hide_and_seek_robot_ws/build/test_pkg/build/lib/test_pkg\n'}
+[3.756762] (test_pkg) StdoutLine: {'line': b'running install\n'}
+[3.758259] (test_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[3.761180] (test_pkg) StdoutLine: {'line': b'creating /home/rane/Development/hide_and_seek_robot_ws/install/test_pkg/lib/python3.10/site-packages/test_pkg\n'}
+[3.761786] (test_pkg) StdoutLine: {'line': b'copying /home/rane/Development/hide_and_seek_robot_ws/build/test_pkg/build/lib/test_pkg/__init__.py -> /home/rane/Development/hide_and_seek_robot_ws/install/test_pkg/lib/python3.10/site-packages/test_pkg\n'}
+[3.764094] (test_pkg) StdoutLine: {'line': b'byte-compiling /home/rane/Development/hide_and_seek_robot_ws/install/test_pkg/lib/python3.10/site-packages/test_pkg/__init__.py to __init__.cpython-310.pyc\n'}
+[3.765223] (test_pkg) StdoutLine: {'line': b'running install_data\n'}
+[3.765809] (test_pkg) StdoutLine: {'line': b'creating /home/rane/Development/hide_and_seek_robot_ws/install/test_pkg/share/ament_index\n'}
+[3.766341] (test_pkg) StdoutLine: {'line': b'creating /home/rane/Development/hide_and_seek_robot_ws/install/test_pkg/share/ament_index/resource_index\n'}
+[3.766739] (test_pkg) StdoutLine: {'line': b'creating /home/rane/Development/hide_and_seek_robot_ws/install/test_pkg/share/ament_index/resource_index/packages\n'}
+[3.767094] (test_pkg) StdoutLine: {'line': b'copying resource/test_pkg -> /home/rane/Development/hide_and_seek_robot_ws/install/test_pkg/share/ament_index/resource_index/packages\n'}
+[3.767511] (test_pkg) StdoutLine: {'line': b'copying package.xml -> /home/rane/Development/hide_and_seek_robot_ws/install/test_pkg/share/test_pkg\n'}
+[3.767906] (test_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.774899] (test_pkg) StdoutLine: {'line': b'Copying ../../build/test_pkg/test_pkg.egg-info to /home/rane/Development/hide_and_seek_robot_ws/install/test_pkg/lib/python3.10/site-packages/test_pkg-0.0.0-py3.10.egg-info\n'}
+[3.779971] (test_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[3.822429] (-) TimerEvent: {}
+[3.859501] (test_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/rane/Development/hide_and_seek_robot_ws/build/test_pkg/install.log'\n"}
+[3.922720] (-) TimerEvent: {}
+[3.976694] (test_pkg) CommandEnded: {'returncode': 0}
+[4.024878] (-) TimerEvent: {}
+[4.031562] (test_pkg) JobEnded: {'identifier': 'test_pkg', 'rc': 0}
+[4.034283] (-) EventReactorShutdown: {}
