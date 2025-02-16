@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'test_pkg'
+package_name = 'differential_drive'
 
 setup(
     name=package_name,
@@ -14,13 +14,12 @@ setup(
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='rane',
-    maintainer_email='ranegray830@gmail.com',
+    maintainer_email='rane@todo.todo',
     description='TODO: Package description',
     license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "test_node = test_pkg.first_node:main",
         ],
     },
 )
