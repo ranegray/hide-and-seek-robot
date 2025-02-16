@@ -20,6 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            "camera_node = sensor_driver.camera_node:main",
+            "lidar_node = sensor_driver.lidar_node:main",
         ],
     },
 )
